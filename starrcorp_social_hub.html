@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efff">
+  <title>STARRCORP | Connect With Us</title>
+  <style>
+    :root { --ink:#35104f; --purple:#6f35a5; --lavender:#f5efff; --line:#e4d5f4; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; min-height:100vh; padding:28px 16px;
+      display:flex; align-items:center; justify-content:center;
+      background: radial-gradient(circle at top, #fff 0, var(--lavender) 48%, #e9dafa 100%);
+      color:var(--ink); font-family:Arial, Helvetica, sans-serif;
+    }
+    .card {
+      width:min(100%, 440px); padding:34px 24px 26px; text-align:center;
+      background:rgba(255,255,255,.88); border:1px solid var(--line);
+      border-radius:28px; box-shadow:0 18px 55px rgba(72,31,102,.12);
+    }
+    .star { font-size:30px; color:#9a70c4; margin-bottom:8px; }
+    h1 { margin:0; letter-spacing:5px; font-size:32px; }
+    .tagline { margin:12px 0 7px; font-size:17px; font-weight:700; }
+    .intro { margin:0 auto 25px; max-width:300px; color:#705c80; font-size:14px; line-height:1.6; }
+    .links { display:grid; gap:12px; }
+    .link {
+      display:block; padding:15px 18px; border-radius:15px;
+      text-decoration:none; font-size:15px; font-weight:700;
+      border:1px solid transparent; transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .link:hover { transform:translateY(-2px); box-shadow:0 7px 18px rgba(72,31,102,.12); }
+    .primary { background:var(--purple); color:#fff; }
+    .secondary { background:#fff; color:var(--ink); border-color:var(--line); }
+    .note { margin-top:22px; color:#8a7898; font-size:11px; line-height:1.5; }
+    footer { margin-top:18px; color:#9a86a8; font-size:11px; letter-spacing:1.5px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="star" aria-hidden="true">✦</div>
+    <h1>STARRCORP</h1>
+    <p class="tagline">Connect With STARRCORP</p>
+    <p class="intro">Follow us for updates, new arrivals, and more. Find your favorite STARRCORP socials below.</p>
+    <nav class="links" aria-label="STARRCORP social media">
+      <a class="link primary" href="https://www.facebook.com/search/top?q=Starr%20Corp" target="_blank" rel="noopener noreferrer">Facebook · Starr Corp</a>
+      <a class="link secondary" href="https://www.instagram.com/starrcorpo/" target="_blank" rel="noopener noreferrer">Instagram · @starrcorpo</a>
+      <a class="link secondary" href="https://www.tiktok.com/@corpo.starr" target="_blank" rel="noopener noreferrer">TikTok · @corpo.starr</a>
+    </nav>
+    <p class="note">Tip: Replace the Facebook search link with your exact Facebook Page URL before publishing, so visitors go directly to your page.</p>
+    <footer>YOUR STYLE · YOUR STORY · YOUR STARR MOMENT</footer>
+  </main>
+</body>
+</html>
